@@ -34,7 +34,8 @@ source activate venv
 ```
 
 Install the requirements.txt
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 Any folders or files to be ignored to be uploaded to GIT, we need to mention them in .gitignore file
@@ -66,3 +67,22 @@ If we have added a file into GIT but the file is not added to GIT, then if we ex
 git status
 ```
 
+To check all version maintained by git
+```
+git log
+```
+
+To create version/commit all changes by git
+```
+git commit -m 'message'
+```
+
+To send version/origin to github
+```
+git push origin main
+```
+
+To check remote url
+```
+git remote -v
+```
