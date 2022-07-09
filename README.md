@@ -82,7 +82,7 @@ To send version/origin to github
 git push origin main
 ```
 
-To check remote url
+To check remote url. The below command displays the origin where the current profile of Git represented.
 ```
 git remote -v
 ```
