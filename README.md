@@ -93,8 +93,8 @@ Next Step is to setup CI/CD pipeline
 To setup CI/CD pipeline in heroku, we need 3 information
 
 1. HEROKU_EMAIL = subbus.m@gmail.com
-2. HEROKU_API_KEY = c52660df-7979-4977-82c2-987a9157a0b3
-3. HEROKU_APP_NAME = ml-regression-
+2. HEROKU_API_KEY = <>
+3. HEROKU_APP_NAME = ml-regression-api
 
 BUILD DOCKER IMAGE
 ```
@@ -111,3 +111,15 @@ image ID gets generated when we execute above commands
 ```
 docker run -p 5000:5000 -e PORT=5000 <imageID>
 ```
+
+To check running containers in docker
+```
+docker ps
+```
+
+To stop docker container
+```
+docker stop <container_id>
+```
+
+Final step is Deployment to Heroku Cloud
